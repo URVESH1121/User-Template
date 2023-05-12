@@ -19,14 +19,14 @@ const Like = ({ val, deleteData, editData }) => {
   function editHandler() {
     setEdit(!edit);
   }
-
   return (
     <>
       <div className="  rounded-xl ">
         <div className=" bg-gray-200 rounded-t-xl">
           <img
             className="w-[100vw] sm:w-[50vw] md:w-[35vw] lg:w-[25vw] h-[30vh]"
-            src={`assets/${val.id}.svg`}
+            src={`https://avatars.dicebear.com/v2/avataaars/${val.username}.svg?options[mood][]=happy`}
+            // src={`assets/${val.id}.svg`}
             alt=""
           />
         </div>
